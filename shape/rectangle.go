@@ -6,7 +6,7 @@ type BangunDatar struct{
 }
 
 func (Bdatar *BangunDatar) Luas() float32 {
-	return Bdatar.width * Bdatar.height
+	return (Bdatar.width * Bdatar.height) + 2
 }
 
 func (Bdatar *BangunDatar) Keliling() float32 {
